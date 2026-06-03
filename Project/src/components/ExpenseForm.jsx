@@ -15,7 +15,7 @@ export default function ExpenseForm({addExpense}) {
 
 
   const handleSubmit = (e)=>{
-    e.preventDefault();
+    e.preventDefault()
     const newExpense = {
         id: Date.now(),
         date: new Date().toDateString(),
